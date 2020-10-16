@@ -8,6 +8,7 @@ import { HiwComponent } from './hiw/hiw.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceComponent } from './service/service.component';
 import { SignupComponent } from './signup/signup.component';
+import { TableComponent } from './table/table.component';
 import { WcsComponent } from './wcs/wcs.component';
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'hiw', component: HiwComponent},
   { path: 'wcs', component: WcsComponent},
-  { path: 'signup', component: SignupComponent}
+  { path: 'signup', component: SignupComponent},
+  { path: 'table', component: TableComponent}
 
 ];
 

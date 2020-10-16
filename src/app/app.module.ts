@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { HiwComponent } from './hiw/hiw.component';
 import { WcsComponent } from './wcs/wcs.component';
 import { SignupComponent } from './signup/signup.component';
+import { TableComponent } from './table/table.component';
 
 
 
@@ -25,7 +26,8 @@ import { SignupComponent } from './signup/signup.component';
     AboutComponent,
     HiwComponent,
     WcsComponent,
-    SignupComponent
+    SignupComponent,
+    TableComponent
     
     
   ],

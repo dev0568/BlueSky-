@@ -25,6 +25,9 @@
                 <li class="nav-item">
                    <a class="nav-link" routerLink="/form">Contact</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="/table">Table</a>
+               </li>
                 <li class="nav-item .search-container">
                    <a class="nav-link search" href="#"><i class="fas fa-search"></i></a>
                    <form>
@@ -50,7 +53,7 @@
                 <h2>We love working</h2>
                 <h4>Maintenance service</h4>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years</p>
-                <a class="blue_bt" href="#">See Our Service</a>
+                <a class="blue_bt" href="#" (click)="service()">See Our Service</a>
              </div>
           </div>
           <div class="carousel-item">
@@ -71,6 +74,13 @@
        </a>
     </div>
  </div>
+
+
+   <div *ngIf="!show">
+      <div>
+         <img src="../../assets/hand.jpg" alt="">
+      </div>
+   </div>
  <div id="about" class="about_section layout_padding">
     <div class="container">
        <div class="row">

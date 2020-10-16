@@ -1,0 +1,29 @@
+<p>table works!</p>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of servers; let i = index">
+        <td>
+          {{i+1}}
+        </td>
+        <td>
+            {{data.first}}
+        </td>
+        <td>
+            {{data.last}}
+        </td>
+        <td>
+            {{data.age}}
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    
+    
